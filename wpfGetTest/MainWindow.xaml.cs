@@ -30,6 +30,7 @@ namespace wpfGetTest
             lbMessage.Items.Add("welcome");
             lbMessage.Items.Add("Welkom");
             lbMessage.Items.Add("Willkommen");
+            lbMessage.Items.Add("Bonjour!");
         }
     }
 }
