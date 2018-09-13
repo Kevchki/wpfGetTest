@@ -24,5 +24,11 @@ namespace wpfGetTest
         {
             InitializeComponent();
         }
+
+        private void btnMessage_Click(object sender, RoutedEventArgs e)
+        {
+            lbMessage.Items.Add("welcome");
+            lbMessage.Items.Add("Welkom");
+        }
     }
 }

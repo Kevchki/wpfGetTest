@@ -8,6 +8,8 @@
         Title="MainWindow" Height="350" Width="525">
     <Grid>
         <Label Content="kennismaking github" HorizontalAlignment="Left" Margin="67,37,0,0" VerticalAlignment="Top" Width="146"/>
+        <Button x:Name="btnMessage" Content="Message" HorizontalAlignment="Left" Margin="123,101,0,0" VerticalAlignment="Top" Width="75" Click="btnMessage_Click"/>
+        <ListBox x:Name="lbMessage" HorizontalAlignment="Left" Height="100" Margin="104,168,0,0" VerticalAlignment="Top" Width="100"/>
 
     </Grid>
 </Window>
